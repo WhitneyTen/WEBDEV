@@ -1,0 +1,202 @@
+*{padding: 0; margin: 0;}
+
+   .container {
+       width : 1180px;
+       margin:auto;
+    
+   }
+   
+   .container body .header{
+       overflow: hidden;
+      
+   }
+   
+   body .container .header .kiriatas img{
+       width: 130px;
+       height: 40px;
+       float: left;
+       margin-right: 225px;
+   }
+   
+   menu { 
+       position: relative;
+    height: 40px; 
+       line-height: 40px; 
+   }
+   
+   menu ul li {
+       float: left; 
+       list-style: none; 
+   }
+   
+   menu ul li a {
+        
+       text-decoration: none; 
+    padding: 3px 8px; 
+       color: black;
+       text-align: center;
+       margin-left: 50px;
+   }
+   
+   menu ul li ul{ 
+       display: none;
+   }
+   
+   menu ul li:hover > ul { 
+       display: block; 
+       z-index: 1;
+   } 
+   
+   menu ul li ul { 
+       position:absolute; 
+   }
+   
+   menu ul li ul li { 
+       float: none; 
+       position: relative;
+       font-weight: 500;
+       padding: 0 70px 0 1rem;
+       text-align: left;
+       background-color:white;
+       box-sizing: inherit;
+       display: block;
+       font-weight: 500;
+       font-size: 15px;
+       right: 120px;;
+   }  
+   
+   menu ul img{
+       width: 3%;
+       height: auto;
+       float: right;
+   }
+
+   
+
+   .container2 {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(208, 207, 209);
+    margin-top: 40px;
+    } 
+
+    .container2 input{
+        font-size: 30px;
+      
+    }
+
+    .container2 .password input{
+        font-size: 12px;
+        width: 360px;
+    }
+
+   .container3{
+    height: 877px;
+    width: 1180px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+   }
+
+   .container3 .myacc {
+    width : 1130px;
+    margin: auto;
+    margin-top : 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 380px;
+    background-color: white;
+    padding: 20px;
+    
+   }
+ 
+
+   .container3 h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+   .container3 h2{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+   .container3 h4{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 8px;
+   }
+
+   .container4{
+width: 500px;
+
+height: 30px;
+   }
+
+   .container4 .login {
+    background-color: black;
+    width: 50px;
+    padding: 7px;
+    float: left;
+    border-radius: 5px;
+   margin-right: 17px;
+   }
+
+   .container4 .login a{
+    text-decoration: none;
+    color: white;
+   }
+
+   .container4 .Remember {
+  
+    padding-left: 20px;
+    margin-top: 15px;
+
+   }
+
+
+   .LostPass{
+    float: left;
+    margin-top: 20px;
+    
+   }
+    .LostPass a {
+    color:black;
+    float: left;
+    margin-right: 330px;
+   }
+
+
+   footer {background: black;}
+   .atas {color: white; display: flex; justify-content: center; padding: 5px;  }
+   .atas .footer1 {width: 300px; padding: 15px; font-size: 12px;}
+   .atas .poto img {width: 30px; height: 30px; float: left; clip-path: circle(50%); margin-left:10px; transform: translate(-10px, 0px)}
+   .atas .poto img:hover {transform: scale(1.2);}
+  
+  
+  
+   .atas .footer1 {width: 300px; font-family: 'Gill Sans'; }
+   .atas .footer1 h2 {border-bottom: solid brown 1px; padding: 10px; padding-left: 0px; }
+   .atas .footer1 .latestNews {align-items: center; gap: 20px; display: flex; justify-content: flex-end; padding: 10px; transform: translate(-16px, 0px)}
+   .atas .footer1 .latestNews a {text-decoration: none; color:white; }
+   .atas .footer1 .latestNews img {width: 40px; height: 40px; flex: 0 0 auto; float: left;} 
+  
+  .footerAtas {
+      float: left;
+  } 
+  
+  .footerTengah {
+      float: left;
+  } 
+  
+  
+  footer .atas .footer1 .form {position: relative; }
+  footer .atas .footer1 .form .tips {display: inline; padding: 10px;}
+  footer .atas .footer1 p {margin-top: 30px;}
+  input[type=password] {padding: 10px; font-family:'Gill Sans';}
+  input[type=submit], button[type=button] {padding: 10px; font-family: 'Gill Sans';}
+  
+  footer .bawah {color: white; text-align: center; font-size: 15px; line-height: 40px; height: 40px; margin-top: 30px;}
+  
+  .container6 .bawah {
+      border-top: 2px solid red;
+  }

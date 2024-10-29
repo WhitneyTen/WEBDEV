@@ -1,0 +1,158 @@
+*{padding: 0; margin: 0;}
+
+   .container {
+       width : 1180px;
+       margin: auto;
+       margin-top : 30px;
+   }
+   
+   .container body .header{
+       overflow: hidden;
+      
+   }
+   
+   body .container .header .kiriatas img{
+       width: 16%;
+       height: auto;
+       float: left;
+       margin-right: 225px;
+       margin-bottom: 20px;
+   }
+   
+   menu { 
+       position: relative;
+    height: 40px; 
+       line-height: 40px; 
+   }
+   
+   menu ul li {
+       float: left; 
+       list-style: none; 
+   }
+   
+   menu ul li a {
+       margin-right: 15px; 
+       text-decoration: none; 
+    padding: 3px 10px; 
+       color: black;
+       text-align: center;
+   }
+   
+   menu ul li ul{ 
+       display: none;
+   }
+   
+   menu ul li:hover > ul { 
+       display: block; 
+       z-index: 1;
+   } 
+   
+   menu ul li ul { 
+       position:absolute; 
+   }
+   
+   menu ul li ul li { 
+       float: none; 
+       position: relative;
+       font-weight: 500;
+       padding: 0 70px 0 1rem;
+       text-align: left;
+       background-color:white;
+       box-sizing: inherit;
+       display: block;
+       font-weight: 500;
+       font-size: 15px;
+       right: 120px;;
+   }  
+   
+   menu ul img{
+       width: 4%;
+       height: auto;
+       float: right;
+   }
+
+
+   .container2 {
+    height: auto;
+    width: 100%;
+    background-color: rgb(208, 207, 209);
+
+    } 
+
+    .container3{
+    width: 1180px;
+    height: 200px;
+    margin: auto;
+   
+    margin-top: 30px;
+    overflow: hidden;
+    }
+
+    .container3 .container4{
+    width: 1180px;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    }
+
+    .container4 .tulisan1{
+        float: left;
+        width:300px;
+        font-size:x-large;
+        padding-left: 20px;
+        border-left: 6px solid gray;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container4 .tulisan2{
+        float: left;
+        width:370px;
+        padding-right: 60px;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container4 .tulisan3{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container5{
+        width: 1180px;
+        margin:auto;
+        height: 700px;
+    }
+
+    .container5 h1{
+        text-align: center;
+        padding: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 45px;
+    }
+    .foto {width: 391.2px; margin-bottom: 50px;}
+    .foto img {width: 320px; height: 400px;}
+    .foto {float: left; margin-top: 13px;}
+    .foto .tengah {margin-left: 33px; }
+    .foto .kanan {float: right; }
+    .foto {position: relative;}
+
+       
+    .coverc {width: 100%; background-color: black; height: auto ;}
+    footer {overflow: hidden; color: white; width: 1180px; margin: auto;}
+    footer h3{border-bottom: 2px solid gray; padding-bottom: 8px; font-size: 22px; width: 210px;}
+    footer h5{font-size: 15px; font-weight: 400;}
+    
+    .footera{float: left; width: 380px; margin-top: 65px;}
+    .footera img {width: 33px; height: 33px; float: left; margin-right: 12px; border-radius: 100px;}
+    .footera img:hover{width: 38px; height: 38px;}
+    
+    .footerb{float: left; width: 380px; margin-top: 65px; margin-left: 20px;}
+    .footerb img {width: 47px; height: 47px; float: left; margin-right: 10px;}
+    
+    .footerc{float: left; width: 380px; margin-top: 65px; margin-left: 20px;}
+    
+    input{margin-top: 25px; height: 40px; border-radius: 5px; margin-bottom: 25px; background-color: white; width: 100px; font-weight: 700; padding: 10px;}
+    a input {width: 210px; padding: 0 10px; font-size: 16px; font-weight: 400; margin-right: 5px;}
+    
+    .footerd {width: 1180px;margin: auto; color: gray; bottom: 0;text-align: center; margin-top: 100px;font-size: 17px;
+        padding: 20px; border-top: 1px solid gray;
+    }

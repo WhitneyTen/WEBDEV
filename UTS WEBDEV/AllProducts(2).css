@@ -1,0 +1,354 @@
+*{padding: 0; margin: 0;}
+
+   .container {
+       width : 1180px;
+       margin: auto;
+       margin-top : 30px;
+   }
+   
+   .container body .header{
+       overflow: hidden;
+      
+   }
+   
+   body .container .header .kiriatas img{
+       width: 16%;
+       height: auto;
+       float: left;
+       margin-right: 225px;
+       margin-bottom: 20px;
+   }
+   
+   menu { 
+       position: relative;
+    height: 40px; 
+       line-height: 40px; 
+   }
+   
+   menu ul li {
+       float: left; 
+       list-style: none; 
+   }
+   
+   menu ul li a {
+       margin-right: 15px; 
+       text-decoration: none; 
+    padding: 3px 10px; 
+       color: black;
+       text-align: center;
+   }
+   
+   menu ul li ul{ 
+       display: none;
+   }
+   
+   menu ul li:hover > ul { 
+       display: block; 
+       z-index: 1;
+   } 
+   
+   menu ul li ul { 
+       position:absolute; 
+   }
+   
+   menu ul li ul li { 
+       float: none; 
+       position: relative;
+       font-weight: 500;
+       padding: 0 70px 0 1rem;
+       text-align: left;
+       background-color:white;
+       box-sizing: inherit;
+       display: block;
+       font-weight: 500;
+       font-size: 15px;
+       right: 120px;;
+   }  
+   
+   menu ul img{
+       width: 4%;
+       height: auto;
+       float: right;
+   }
+   .container2{
+    background-color: rgb(208, 207, 209);
+    height: 1000px;
+    margin-top: 20px;
+    
+   }
+   .container3{
+    width: 1180px;
+    margin: auto;
+    background-color: rgb(208, 207, 209);
+    height: 1000px;
+   }
+
+   .container3 .kiri {
+    float:left;
+    width: 778px;
+    height: 400px;
+    
+   }
+
+   .container3 .kiri .atas1 {
+    width: 778px;
+    height: 150px;
+    padding-top: 5px;
+    background-color: rgb(208, 207, 209);
+   }
+
+   .container3 .kiri .atas1 .judul {
+    height: auto;
+    float: left;
+    background-color: rgb(208, 207, 209);
+   }
+
+
+   .container3 .kiri .atas1 .judul h4{
+    font-family: sans-serif;
+    color: rgb(208, 207, 209);
+   }
+
+   .container3 .kiri .atas1 .judul h4{
+    font-family: sans-serif;
+    color: rgb(208, 207, 209);
+   }
+
+   .container3 .kiri .atas1 .judul h4 a{
+    text-decoration: none;
+    color: gray;
+   }
+
+   .container3 .kiri .atas1 .judul h2{
+    font-family: sans-serif;
+    font-weight: bolder;
+   }
+
+   .container3 .kiri .atas1 .judul h3{
+    font-family: sans-serif;
+    font-weight: lighter;
+   }
+   
+
+   .container3 .kiri .sort {
+    float: right;
+    margin-top: 80px;
+    margin-right: 20px;
+    
+   }
+
+   select {width: 200px; font-size: 14px; background: white; padding: 10px; border-radius: 4px; }
+
+
+   .container3 .gambarpoduklayout{
+    width: 778px;
+    background-color: rgb(208, 207, 209);
+    margin-bottom: 40px;
+    height: 300px;
+
+}
+.container3 .kiri .gambarproduk {width: 259px;}
+.container3 .kiri .gambarproduk img { width: 250px; height: auto;}
+.container3 .kiri .gambarproduk {float: left;}
+.container3 .kiri .gambarproduk {position: relative;}
+.gambarproduk .tengah2 {margin-left: 6.5px;}
+.container3 .kiri .gambarproduk .kanan2 { float: right; background-color: rgb(208, 207, 209); }
+
+
+.container3 .kiri .gambarproduk  .namaProduk {font-size: 15px; font: bold; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: black; text-align: left; padding: 10px 0px 0px 0px; text-decoration: none;}
+.container3 .kiri .gambarproduk .namaProduk a { text-decoration: none; }
+.container3 .kiri .gambarproduk .bintang a { text-decoration: none; color: gold; font-size: 20px; }
+.container3 .kiri .gambarproduk .harga a {color: black; font-size: 15px;text-decoration: none; }
+.container3 .kiri .gambarproduk .harga b {color: gray; font-size: 12px;text-decoration: none; text-decoration-line: line-through ; font:bold;}
+.gambarproduk .cart {width: 100px; margin-top: 8px; margin-bottom: 3px; border-radius: 4px; padding: 4px; text-align: center; background-color: black;} 
+.gambarproduk .cart a {color: white; text-decoration: none;}
+
+.gambarbarislayout {
+    width: 778px;
+    background-color: rgb(208, 207, 209);
+    margin-bottom: 40px;
+    height: 400px;
+
+}
+.gambarbaris {width: 259px;}
+.gambarbaris img { width: 250px; height: auto;}
+.gambarbaris {float: left; margin-top: 35px;}
+.gambarbaris {position: relative;} 
+.gambarbaris .tengah3 {margin-left: 6.5px;}
+.gambarbaris .kanan3 {float: right;}
+
+
+.gambarbaris  .namaProduk {font-size: 15px; font: bold; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: black; text-align: left; padding: 10px 0px 0px 0px; text-decoration: none;}
+.gambarbaris .namaProduk a { text-decoration: none; }
+.gambarbaris .bintang a { text-decoration: none; color: gold; font-size: 20px; }
+.gambarbaris .harga a {color: black; font-size: 15px;text-decoration: none; }
+.gambarbaris .harga b {color: gray; font-size: 12px;text-decoration: none; text-decoration-line: line-through ; font:bold;}
+.gambarbaris .cart {width: 100px; margin-top: 8px; margin-bottom: 3px; border-radius: 4px; padding: 4px; text-align: center; background-color: black;} 
+.gambarbaris .cart a {color: white; text-decoration: none;}
+
+.container4{
+    width: 778px;
+    background-color: rgb(208, 207, 209);
+    height: 39px;
+}
+
+.container4 .nomorbarisan{
+    width: 200px;
+    background-color: rgb(208, 207, 209);
+    margin:auto;
+    height: 39px;
+}
+
+.container4 .nomor1{
+    width: 50px;
+    background-color: white;;
+    margin:auto;
+    float: left;
+    height: 39px;
+    
+}
+
+.container4 .nomor2{
+    width: 50px;
+    background-color:white;
+    margin:auto;
+    float: left;
+    height: 39px;
+    margin-left: 25px;
+    
+}
+.container4 .nomor3{
+    width: 50px;
+    background-color: salmon;
+    margin:auto;
+    float: right;
+    height: 39px;
+    
+}
+
+.container4 .nomorbarisan p {
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 7px;
+}
+
+.container4 .nomorbarisan p a{
+    text-decoration: none;
+}
+
+   .container3 .kanan {
+    width: 354px;
+    height: 820px;
+    float: right;
+    background-color: white;
+    padding: 15px;
+    border: 3px solid brown;
+   }
+   
+   .container3 .kanan .gambarcategories img {
+    width: 46px;
+    height: 46px;
+    float: left;
+    padding-top: 15px;
+   }
+   .container3 .kanan a{
+    padding-left: 7px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+
+    
+   }
+   .container3 .kanan .baris1 {
+    float: left;
+    width: 354px;
+   }
+
+   .container3 .kanan .baris2 {
+    float: left;
+    width: 354px;
+   }
+
+   .container3 .kanan .baris3 {
+    float: left;
+    width: 354px;
+   }
+ 
+   .container3 .kanan .baris4 {
+    float: left;
+    width: 354px;
+   }
+
+   .container3 .kanan .namaProduk{
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+    padding-bottom: 14px;
+   }
+   .container3 .kanan .popular  {
+    background-color: white;
+    height: 320px;
+    }
+
+   .container3 .kanan .search  {
+   background-color:white;
+   height: auto;
+   
+   }
+
+   .container3 .kanan .search .form  {
+    background-color:white;
+    height: 70px;
+    
+    }
+    .search .form .kiri6{
+        float: left;
+    }
+    .search .form .kanan6{
+        float: right;
+        height: 40px;
+        margin-right: 40px;
+        margin-top: 25px;
+    }
+
+    .form input {line-height: 26px; width: 180px; float: left;}
+    .form input.inputText {padding: 0 0 0 10px; float: left;}
+    .form input.inputText:hover {border-radius: 5px; font-size: 18px; border: 2px solid black; float: left; }
+
+    .search .form {margin-top: 10px;}
+    .search .form h2 a { background-color: black;  font-size:26px; color: white; padding: 2px;  padding-right: 10px;padding-left: 10px; border-radius: 4px; float: right;}
+    .container3 .kanan .price  {
+        background-color: white;
+        
+        }
+    
+      
+    .follow img {
+        width: 70px;
+        float: left;
+        padding-right: 10px;
+    }
+
+.coverc {width: 100%; background-color: black; height: auto ;}
+footer {overflow: hidden; color: white; width: 1180px; margin: auto;}
+footer h3{border-bottom: 2px solid gray; padding-bottom: 8px; font-size: 22px; width: 210px;}
+footer h5{font-size: 15px; font-weight: 400;}
+
+.footera{float: left; width: 380px; margin-top: 65px;}
+.footera img {width: 33px; height: 33px; float: left; margin-right: 12px; border-radius: 100px;}
+.footera img:hover{width: 38px; height: 38px;}
+
+.footerb{float: left; width: 380px; margin-top: 65px; margin-left: 20px;}
+.footerb img {width: 47px; height: 47px; float: left; margin-right: 10px;}
+
+.footerc{float: left; width: 380px; margin-top: 65px; margin-left: 20px;}
+
+input{margin-top: 25px; height: 40px; border-radius: 5px; margin-bottom: 25px; background-color: white; width: 100px; font-weight: 700; padding: 10px;}
+a input {width: 210px; padding: 0 10px; font-size: 16px; font-weight: 400; margin-right: 5px;}
+
+.footerd {width: 1180px;margin: auto; color: gray; bottom: 0;text-align: center; margin-top: 100px;font-size: 17px;
+    padding: 20px; border-top: 1px solid gray;
+}

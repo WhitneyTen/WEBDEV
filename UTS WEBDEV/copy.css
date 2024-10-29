@@ -1,0 +1,344 @@
+
+   *{padding: 0; margin: 0;}
+
+   .container {
+       width : 1000px;
+       margin: auto;
+       margin-top : 30px;
+   }
+   
+   .container body .header{
+       overflow: hidden;
+      
+   }
+   
+   body .container .header .kiriatas img{
+       width: 16%;
+       height: auto;
+       float: left;
+       margin-right: 225px;
+       margin-bottom: 20px;
+   }
+   
+   menu { 
+       position: relative;
+    height: 40px; 
+       line-height: 40px; 
+      
+   }
+   
+   menu ul li {
+       float: left; 
+       list-style: none; 
+   }
+   
+   menu ul li a {
+       margin-right: 15px; 
+       text-decoration: none; 
+    padding: 3px 10px; 
+       color: black;
+       text-align: center;
+   }
+   
+   menu ul li ul{ 
+       display: none;
+   }
+   
+   menu ul li:hover > ul { 
+       display: block; 
+       z-index: 1;
+   } 
+   
+   menu ul li ul { 
+       position:absolute; 
+   }
+   
+   menu ul li ul li { 
+       float: none; 
+       position: relative;
+       font-weight: 500;
+       padding: 0 70px 0 1rem;
+       text-align: left;
+       background-color:white;
+       box-sizing: inherit;
+       display: block;
+       font-weight: 500;
+       font-size: 15px;
+       right: 120px;;
+   }  
+   
+   menu ul img{
+       width: 4%;
+       height: auto;
+       float: right;
+   }
+   .galeri1 {width: 1000px;}
+   .galeri1 img {width: 1000px; height: 500px; filter:brightness(0.95)}
+   .galeri1 {float: left; }
+   
+   .galeri1 .judul {position: absolute;}
+   .galeri1 .judul {display: none;}
+
+   /* Cara untuk menulis nomor di dalam gambar */
+   .galeri1 {position: relative;}
+   
+
+   .galeri1 .judul {display: block; position: absolute; font-size: 35px; font: bold; top: 18%; left: 20%; right: 20%; font-family:'Franklin Gothic Medium';
+    color: white; text-align: center; padding: 7px;
+    }
+
+   .galeri1 .shopNow a {position: absolute; width: 12%; height: auto; 
+   background: black;  top: 50%; left: 43%; right: 25%; border-radius: 5px; 
+    font-size: 20px; color: white; padding: 6px; text-align: center; font-family:Impact; text-decoration: none }
+   
+   .galeri1 .judul2 {display: block; position: absolute; font-size: 30px; top: 30%; left: 20%; right: 20%; 
+   color: white; text-align: center;}
+
+
+    .foto {width: 333.3px; margin-bottom: 50px;}
+    .foto img {width: 320px; height: 300px;}
+    .foto {float: left; margin-top: 13px;}
+    .foto .tengah {margin-left: 6.5px; }
+    .foto .kanan {float: right; }
+    .foto {position: relative;}
+
+    .foto  .komentar {display: block; position: absolute; font-size: 35px; font: bold; top: 30%; left: 20%; right: 20%; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white; text-align: center; padding: 7px;}
+
+    .foto .shopNow a {position: absolute;  top: 50%; left: 35%; font-size: 20px; color: white; text-align: center; font-family:monospace; text-decoration: none }
+
+    .product  .headline { float: left; font-size: 15px; font: bold;  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: black ; text-align: left; }
+
+    .product .viewProduct {
+        float: right; font-size: 18px; color: white;  font-family:monospace; background-color: black; border-radius: 5px; padding: 10px;  text-decoration: none;
+    }
+
+    .product .viewProduct a {
+         font-size: 18px; color: white;  font-family:monospace; text-decoration: none;}
+
+    .product {
+        width: 1000px;
+        background-color: white;
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+    
+    .gambarpoduklayout{
+        width: 1000px;
+        background-color: white;
+        margin-bottom: 40px;
+    
+    }
+
+
+    
+    .gambarproduk {width: 333.3px;}
+    .gambarproduk img { width: 320px; height: auto;}
+    .gambarproduk {float: left;}
+    .gambarproduk {position: relative;}
+    .gambarproduk .tengah2 {margin-left: 6.5px;}
+    .gambarproduk .kanan2 {float: right; }
+    
+
+    .gambarproduk  .namaProduk {font-size: 15px; font: bold; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black; text-align: left; padding: 10px 0px 0px 0px; text-decoration: none;}
+    .gambarproduk .namaProduk a { text-decoration: none; }
+    .gambarproduk .bintang a { text-decoration: none; color: gold; font-size: 20px; }
+    .gambarproduk .harga a {color: black; font-size: 15px;text-decoration: none; }
+    .gambarproduk .harga b {color: gray; font-size: 12px;text-decoration: none; text-decoration-line: line-through ; font:bold;}
+
+    .gambarbarislayout {
+        width: 1000px;
+        background-color: white;
+        display: inline-block;
+        margin-bottom: 40px;
+    
+    }
+    .gambarbaris {width: 333.3px;}
+    .gambarbaris img { width: 320px; height: auto;}
+    .gambarbaris {float: left; margin-top: 35px;}
+    .gambarbaris {position: relative;} 
+    .gambarbaris .tengah3 {margin-left: 6.5px;}
+    .gambarbaris .kanan3 {float: right;}
+    
+
+    .gambarbaris  .namaProduk {font-size: 15px; font: bold; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black; text-align: left; padding: 10px 0px 0px 0px; text-decoration: none;}
+    .gambarbaris .namaProduk a { text-decoration: none; }
+    .gambarbaris .bintang a { text-decoration: none; color: gold; font-size: 20px; }
+    .gambarbaris .harga a {color: black; font-size: 15px;text-decoration: none; }
+    .gambarbaris .harga b {color: gray; font-size: 12px;text-decoration: none; text-decoration-line: line-through ; font:bold;}
+
+    .container3 {
+        height: 225px;
+        background-color: rgb(208, 207, 209); 
+        
+    }
+    .informationlayout {
+        height: 225px;
+        width: 1000px;
+        background-color: rgb(208, 207, 209);
+        margin: auto;
+        
+    }
+    .information {width: 333.3px; margin: auto; text-align: center;}
+    .information img { width: 100px; height: auto;}
+    .information {float: left; margin-top: 35px;}
+    .information {position: relative;} 
+    .information .kiri4 {margin-left: 120px;} 
+    .information .tengah4 {margin-left: 50px;}
+    .information .kanan4 {float: right; margin-right: 100px; }
+  
+    .informationlayout  {text-align: center; }
+
+    .container4 {
+        width: 1000px; height: 400px;
+        margin:auto;
+    }
+    .biodatalayout {
+        width: 1000px; height: auto;
+        display: inline-block;
+        margin-top: 50px ;
+        position: relative;
+        margin-bottom: 100px;
+        margin:auto;
+    }
+
+    .biodatalayout .kiri5 {
+        float: left; 
+        width: 300px;
+        margin-top: 35px; 
+    } 
+    .biodatalayout .kanan5  img{
+        float: right; 
+        width : 300px;
+    }
+
+    .biodatalayout .kiri5 .nim{
+        float: left;  
+        font-size: 25px;
+    } 
+
+    .biodatalayout .kiri5 .nama{
+        float: left; 
+        width: 500px; 
+        font-size:40px;
+    } 
+
+    .biodatalayout .kiri5 .datadiri{
+        float: left; 
+        width: 680px; 
+        font-size:20px;
+    }
+
+    .biodatalayout .kiri5 .read a {position: absolute;  top: 75%; font-size: 20px; color: white;  text-align: center; font-family:monospace; text-decoration: none; background-color: black; padding: 5px; border-radius: 5px;}
+
+    .container5{
+        height: 400px;
+        background-color: rgb(208, 207, 209);
+        
+    }
+
+
+    .testidetail {
+        background-color: rgb(208, 207, 209);
+        width: 1000px;
+        margin: auto;
+        padding: 7px;
+    }
+
+    .testidetail h3, h2{
+        text-align: center;
+    }
+
+    .container-dua{
+        width:999px; /*kurangkan satu buat shadow*/
+        height: 200px;
+        margin: 50px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .customer{
+        width: 32%;
+        box-sizing: border-box;
+        border-radius: 8px;
+        box-shadow: 0px 0px 16px 0px;
+    }
+    
+    .customer.satu {background-color: lightcyan; padding: 25px;}
+    .customer.dua {background-color: black; padding: 25px;}
+    .customer.tiga {background-color: lightcyan; padding: 25px;}
+    
+    .customer.satu img {
+        width: 70px;
+        height: auto;
+        float: left;
+        padding-left: 5px;
+        clip-path: circle(36%);
+    }
+    
+    .customer.satu .namanya {
+       float: left;
+       padding-left: 15px;
+       padding-top: 14px;
+    }
+
+    .customer.dua img {
+        width: 70px;
+        height: auto;
+        float: left;
+        padding-left: 10px;
+        clip-path: circle(36%);
+    }
+    
+    .customer h4 {
+        color: orangered;
+        padding-left: 0px; ;
+    }
+    .customer.dua {
+        color: white;
+     }
+
+    .customer.dua .namanya {
+        float: left;
+        padding-left: 15px;
+        padding-top: 14px;
+    }
+
+    .customer.tiga img {
+        width: 70px;
+        height: auto;
+        float: left;
+        padding-left: 10px;
+        clip-path: circle(36%);
+    }
+    
+    .customer.tiga .namanya {
+        float: left;
+        padding-left: 15px;
+        padding-top: 14px;
+    }
+    .coverc {width: 100%; background-color: black; height: auto ;}
+    footer {overflow: hidden; color: white; width: 1180px; margin: auto;}
+    footer h3{border-bottom: 2px solid gray; padding-bottom: 8px; font-size: 22px; width: 210px;}
+    footer h5{font-size: 15px; font-weight: 400;}
+    
+    .footera{float: left; width: 380px; margin-top: 65px;}
+    .footera img {width: 33px; height: 33px; float: left; margin-right: 12px; border-radius: 100px;}
+    .footera img:hover{width: 38px; height: 38px;}
+    
+    .footerb{float: left; width: 380px; margin-top: 65px; margin-left: 20px;}
+    .footerb img {width: 47px; height: 47px; float: left; margin-right: 10px;}
+    
+    .footerc{float: left; width: 380px; margin-top: 65px; margin-left: 20px;}
+    
+    input{margin-top: 25px; height: 40px; border-radius: 5px; margin-bottom: 25px; background-color: white; width: 100px; font-weight: 700; padding: 10px;}
+    a input {width: 210px; padding: 0 10px; font-size: 16px; font-weight: 400; margin-right: 5px;}
+    
+    .footerd {width: 1180px;margin: auto; color: gray; bottom: 0;text-align: center; margin-top: 100px;font-size: 17px;
+        padding: 20px; border-top: 1px solid gray;
+    }
+    
+
